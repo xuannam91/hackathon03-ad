@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* List Product */
+.product-big-title-area{
+    background-color: rgb(158, 17, 17);
+    color: white;
+    font-size: 24px;
+}
+.money-title{
+  font-size: 20px;
+}
+.moneyFull{
+  font-size: 24px;
+  font-style: italic;
+  color: blue;
+}
+
+
+.text-center{
+  position: relative;
+}
+
+.icon-shopping{
+  position: absolute;
+  top: 10px;
+  right: 50px;
+
+}
+
+.fa-cart-shopping span {
+  font-size: 12px;
+  border: 1px solid pink;
+  padding: 2px;
+  border-radius: 50px;
+  background-color: rgb(10, 248, 248);
+  color: black;
+}
+/* product */
+
+.col-md-3{
+    width: 20%;
+    padding: 20px 20px;
+}
+.product-upper img {
+    width: 100%;
+    height: 200px;
+}
+
+.single-product-area .container .row {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.product-option-shop .add_to_cart_button{
+    background-color: brown;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+    border: none;
+}
+
+.infor-item{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0;
+}
+
+
+
+
+
+/* Cart */
+
+.page-title h1{
+    color: red;
+    margin: 30px 0;
+    
+}
+.page-title-mini{
+    background-color: wheat;
+    margin-bottom: 50px;
+}
+
+.table-responsive {
+    overflow-x: auto;
+  }
+  
+ 
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+  }
+  
+ 
+  .table th {
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  
+  .table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+  }
+  
+  
+  .table button {
+    padding: 6px 12px;
+    margin: 4px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+ 
+  .table img {
+    width: 100%;
+    height: auto;
+    max-width: 100px;
+    max-height: 100px;
+  }
+  .main_content{
+    margin: 50px;
+  }
+
+  .total-money{
+    margin: 30px;
+  }
+
+  .btn-delete{
+    background-color: chocolate;
+    color: white;
+    border-radius: 5px;
+    border: none;
+  }
